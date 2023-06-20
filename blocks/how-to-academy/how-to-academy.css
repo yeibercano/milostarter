@@ -1,0 +1,8 @@
+.how-to-academy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+  grid-template-areas:
+    "heading image"
+    "list list"
+}
